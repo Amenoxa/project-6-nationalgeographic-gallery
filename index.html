@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <title>NG Gallery</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header id="header" class="header">
+        <div class="header__logoPlaceholder">
+            <p class='header__span'></p>
+        </div>
+        <h1 class="header__logo">NATIONAL<br>GEOGRAPHIC<br>GALLERY</h1>
+        <div class="header__links">
+            <a href='https://www.nationalgeographic.com/' target=”_blank” class="header__link">HOMEPAGE</a>
+            <a href="https://www.nationalgeographic.com/subscribe" target=”_blank” class="header__link">SUBSCRIBE</a>
+            <a href='#gallery' class="header__link">GALLERY</a>
+        </div>
+    </header>
+    <!--HERO-postheader-->
+    <section class='hero--posthead'>
+        <div class="app">
+
+            <div class="cardList">
+              <button class="cardList__btn btn btn--left">
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="#arrow-left"></use>
+                  </svg>
+                </div>
+              </button>
+          
+              <div class="cards__wrapper">
+                <div class="card current--card">
+                  <div class="card__image">
+                    <img class='img_' src="./img/card1.jpg" alt="" />
+                  </div>
+                </div>
+          
+                <div class="card next--card">
+                  <div class="card__image">
+                    <img class='img_' src="./img/card2.jpg" alt="" />
+                  </div>
+                </div>
+          
+                <div class="card previous--card">
+                  <div class="card__image">
+                    <img class='img_' src="./img/card3.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+          
+              <button class="cardList__btn btn btn--right">
+                <div class="icon">
+                  <svg>
+                    <use xlink:href="#arrow-right"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          
+            <div class="infoList">
+              <div class="info__wrapper">
+                <div class="info current--info">
+                  <h1 class="text name">Flora</h1>
+                  <h4 class="text location">Plant forms worldwide</h4>
+                  <p class="text description">Grace of the Earth garden</p>
+                </div>
+          
+                <div class="info next--info">
+                  <h1 class="text name">Fauna</h1>
+                  <h4 class="text location">Animals of the world</h4>
+                  <p class="text description">Beauty of living things</p>
+                </div>
+          
+                <div class="info previous--info">
+                  <h1 class="text name">Architecture</h1>
+                  <h4 class="text location">Ancient and modern constructions</h4>
+                  <p class="text description">Artistry of human mind</p>
+                </div>
+              </div>
+            </div>
+          
+          
+            <div class="app__bg">
+              <div class="app__bg__image current--image">
+                <img class='img_' style="object-fit: fill;" src="./img/card1.jpg" alt="" />
+              </div>
+              <div class="app__bg__image next--image">
+                <img class='img_' style="object-fit: fill;" src="./img/card2.jpg" alt="" />
+              </div>
+              <div class="app__bg__image previous--image">
+                <img class='img_' style="object-fit: fill;" src="./img/card3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          
+          <div class="loading__wrapper">
+            <div class="loader--text">Loading...</div>
+            <div class="loader">
+              <span></span>
+            </div>
+          </div>
+          
+          
+          <svg class="icons" style="display: none;">
+            <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+              <polyline points='328 112 184 256 328 400'
+                     style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+            <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+              <polyline points='184 112 328 256 184 400'
+                     style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+            </symbol>
+          </svg>
+        </section>
+    <!--Galery-->
+    <section id="gallery" class="gallery">
+      <img src="https://source.unsplash.com/OoqKykDmBXw/">               
+      <img src="https://source.unsplash.com/aT7jUarP0oc/">                
+      <img src="https://source.unsplash.com/2buV9JU4jaI/">                
+      <img src="https://source.unsplash.com/bkDxWGoPq7U/">               
+      <img src="https://source.unsplash.com/XGDBdSQ70O0/">
+      <img src="https://source.unsplash.com/-rWP5SEEuSU/">
+      <img src="https://source.unsplash.com/Ql9PCaOhyyE/">
+      <img src="https://source.unsplash.com/d30E78EkCIE/">
+      <img src="https://source.unsplash.com/7wI5SECPq9Q/">
+      <img src="https://source.unsplash.com/R5scocnOOdM/">
+      <img src="https://source.unsplash.com/sadF3iU4Jo4/">
+      <img src="https://source.unsplash.com/PM5a_R83-YQ/">
+      <img src="./img/1.jpg" alt="" srcset="">
+      <img src="./img/2.jpg" alt="" srcset="">
+      <img src="./img/3.jpg" alt="" srcset="">
+      <img src="./img/4.jpg" alt="" srcset="">
+      <img src="./img/5.jpg" alt="" srcset="">
+      <img src="./img/6.jpg" alt="" srcset="">
+      <img src="./img/7.jpg" alt="" srcset="">
+      <img src="./img/8.jpg" alt="" srcset="">
+      <img src="./img/9.jpg" alt="" srcset="">
+      <img src="./img/10.jpg" alt="" srcset="">
+      <img src="./img/11.jpg" alt="" srcset="">
+      <img src="./img/12.jpg" alt="" srcset="">
+      <img src="./img/14.jpg" alt="" srcset="">
+      <img src="./img/15.jpg" alt="" srcset="">
+      <img src="./img/16.jpg" alt="" srcset="">
+      <img src="./img/17.jpg" alt="" srcset="">
+      <img src="./img/18.jpg" alt="" srcset="">
+    </section>
+    <!--HERO2-prefooter-->
+    <section class='hero'>
+      <h1 class="hero__messege">TRENDING NOW</h1>
+        <div class="stage">
+  
+  
+            <div class="container">
+              <div class="ring">
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+              </div>
+            </div>
+            
+            </div>
+            <h1 class="hero__title">Discover the world</h1>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+      <div class="footer__list">
+          <a class="footer__item" href="#header">Home</a>
+          <a class="footer__item" href="#header">Services</a>
+          <a class="footer__item" href="#header">About</a>
+          <a class="footer__item" href="#header">Terms</a>
+          <a class="footer__item" href="#header">Privacy Policy</a>
+      </div>
+      <p class="footer__copyright">Amenoxa © 2020</p>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script type='module' src="./js/cube-gallery.min.js"></script>
+    <script src="./js/hero2.js"></script>
+    <script src="./js/hero.js"></script>
+    <script type='module' src="./js/gallery.js"></script>
+</body>
+</html>

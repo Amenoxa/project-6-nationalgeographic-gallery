@@ -1,0 +1,41 @@
+.header {
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 2px 2px 1px rgb(232, 236, 11);
+    z-index: +5;
+    &__logoPlaceholder {
+        border: solid rgb(238, 234, 10);
+}
+    &__logo {
+        font-size: 16px;
+        line-height: 130%;
+        padding: 0px 10px;
+        color: black;
+        margin: 10px;
+        margin-left: 0px;
+        }
+    &__span {
+        padding: 2vh 1.33vh;
+        margin: 10px;
+        background-color: rgba(255, 248, 220, 0);
+    }
+    &__links {
+        margin-left: auto;
+    }
+    &__link {
+        font-size: 16px;
+        margin-left: 20px;
+        padding: 0px 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+
+
+
+

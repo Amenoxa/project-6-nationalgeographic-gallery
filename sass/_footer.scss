@@ -1,0 +1,33 @@
+.footer {
+    height: 20vh;
+    color: rgb(3, 3, 3);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0vh;
+    background-color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    z-index: +999;
+    &__list {
+        padding-left: 130px;
+        padding-right: 130px;
+        padding-bottom: 40px;
+        text-decoration: none !important;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: space-between;
+        cursor: pointer;
+        border-bottom: 1px solid #6666663a;
+        z-index: +999;
+    }
+    &__item {
+        text-decoration: none !important;
+        cursor: pointer !important;
+        padding-left: 10px;
+        z-index: +999;
+    }
+    &__copyright {
+        margin-top: auto;
+    }
+}
