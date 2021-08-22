@@ -1,8 +1,9 @@
 # UDEMY project-6-nationalgeographic-gallery
+working resolution: 1000px+ x 1000px+<br>
 
-SCSS <br>
-GSAP <br>
-JS <br>
+- SCSS <br>
+- GSAP <br>
+- JS <br>
 
 external resources: <br>
 https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js <br>
